@@ -1,0 +1,101 @@
+.host 
+{
+    .hContainer 
+    {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+
+        .hostName 
+        {
+            font-size: 0.7em;
+            color: #FF6060;
+        }
+
+        img 
+        {
+            object-fit: cover;
+            object-position: center;
+            width: 40px;
+            border-radius: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 783px) {
+    .host 
+    {
+        .hContainer 
+        {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+
+            .hostName 
+            {
+                font-size: 0.73em;
+                color: #FF6060;
+            }
+
+            img 
+            {
+                object-fit: cover;
+                object-position: center;
+                width: 40px;
+                border-radius: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .host 
+    {
+        .hContainer 
+        {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+
+            .hostName 
+            {
+                font-size: 0.67em;
+                color: #FF6060;
+            }
+
+            img 
+            {
+                object-fit: cover;
+                object-position: center;
+                width: 30px;
+                border-radius: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .host 
+    {
+        .hContainer 
+        {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+
+            .hostName 
+            {
+                font-size: 0.61em;
+                color: #FF6060;
+            }
+
+            img 
+            {
+                object-fit: cover;
+                object-position: center;
+                width: 25px;
+                border-radius: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,68 @@
+.collapse 
+{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+
+    .taContainer 
+    {
+        background-color: #FF6060;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 7px 10px;
+        border-radius: 6px;
+        align-items: center;
+    }
+
+    h2 
+    {
+        color: white;
+        font-size: 0.65em;
+        font-weight: normal;
+    }
+
+    img 
+    {
+        width: 17px;
+        height: 9px;
+    }
+
+    .openCollapse 
+    {
+        width: 100%;
+        background-color: #F6F6F6;
+
+        p
+        {
+            color: #FF6060;
+            font-size: 0.7em;
+            padding: 15px 10px;
+        }
+
+        ul
+        {
+            list-style: none;
+            padding: 15px 10px;
+
+            li 
+            {
+                color: #FF6060;
+                font-size: 0.7em;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .collapse
+    {
+        width: 100%;
+        
+        .taContainer
+        {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,64 @@
+header 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+    img 
+    {
+        width: 110px;
+        height: auto;
+    }
+
+    nav 
+    {     
+        a 
+        {
+            font-size: 0.75em;
+            text-decoration: none;
+            color: #FF6060;
+
+            &:first-child
+            {
+                margin-right: 27px;
+            }
+
+            &.active 
+            {
+                text-decoration: underline;
+            }
+
+            &.inactif 
+            {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header 
+    {
+        margin-top: 10px;
+
+        img
+        {
+            width: 90px;
+        }
+
+        nav 
+        {
+            a 
+            {
+                font-size: 0.55em;
+                text-transform: uppercase;
+
+                &:first-child
+                {
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+}

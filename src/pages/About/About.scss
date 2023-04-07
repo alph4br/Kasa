@@ -1,0 +1,42 @@
+.about 
+{
+    .imageContainer 
+    {
+        position: relative;
+        margin-top: 25px;
+        width: 100%;
+        height: 150px;
+        border-radius: 10px;
+
+        img 
+        {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 10px;
+        }
+
+        &::before
+        {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba($color: #000000, $alpha: 0.4);
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            border-radius: 10px;
+        }
+    }
+    
+    .collapseContainer
+    {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

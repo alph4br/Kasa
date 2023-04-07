@@ -1,0 +1,58 @@
+.imagesContainer 
+{
+    position: relative;
+    margin-top: 20px;
+    height: 260px;
+
+    .picture 
+    {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10px;
+        z-index: 0;
+    }
+
+    .arrowRight 
+    {
+        position: absolute;
+        top: 50%;
+        right: 5px;
+        transform: translateY(-50%);
+        width: 40px;
+    }
+
+    .arrowLeft
+    {
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        transform: translateY(-50%);
+        width: 40px;
+    }
+
+    p 
+    {
+        position: absolute;
+        bottom: 5px;
+        font-size: 0.85em;
+        z-index: 1;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+    }
+
+    
+}
+
+@media screen and (max-width: 500px) 
+{
+    .imagesContainer 
+    {
+        p 
+        {
+            display: none;
+        }
+    }
+}
